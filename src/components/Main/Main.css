@@ -1,0 +1,71 @@
+.div-7 {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-self: stretch;
+    position: relative;
+    display: flex;
+    min-height: 440px;
+    width: 100%;
+    justify-content: center;
+  }
+  @media (max-width: 991px) {
+    .div-7 {
+      max-width: 100%;
+    }
+  }
+  .img-4 {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .div-8 {
+    position: relative;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.45) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    );
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-8 {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .div-9 {
+    display: flex;
+    flex-direction: column;
+    margin: 246px 0 31px 140px;
+  }
+  @media (max-width: 991px) {
+    .div-9 {
+      margin: 40px 0 0 10px;
+    }
+  }
+  .div-10 {
+    color: #fff;
+    white-space: nowrap;
+    font: 700 36px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      white-space: initial;
+    }
+  }
+  .div-11 {
+    color: #fff;
+    margin-top: 11px;
+    font: 400 18px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }

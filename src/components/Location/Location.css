@@ -1,0 +1,69 @@
+.div-91 {
+    display: flex;
+    width: 100%;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .div-92 {
+    display: flex;
+    gap: 4px;
+    padding: 0 20px;
+  }
+  .img-30 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 18px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .div-93 {
+    color: #000;
+    align-self: center;
+    flex-grow: 1;
+    white-space: nowrap;
+    margin: auto 0;
+    font: 400 14px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-93 {
+      white-space: initial;
+    }
+  }
+  .img-31 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 20px;
+    overflow: hidden;
+    align-self: stretch;
+    max-width: 100%;
+  }
+  .div-94 {
+    display: flex;
+    margin-top: 43px;
+    align-items: start;
+    justify-content: space-between;
+    gap: 7px;
+    padding: 0 20px;
+  }
+  @media (max-width: 991px) {
+    .div-94 {
+      margin-top: 40px;
+    }
+  }
+  .img-32 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .div-95 {
+    color: #000;
+    font: 400 12px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }

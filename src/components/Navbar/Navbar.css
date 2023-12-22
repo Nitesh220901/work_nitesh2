@@ -1,0 +1,83 @@
+
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      padding: 0 20px;
+    }
+  }
+  .img {
+    aspect-ratio: 6.79;
+    object-fit: contain;
+    object-position: center;
+    width: 163px;
+    overflow: hidden;
+    align-self: center;
+    max-width: 100%;
+    margin: auto 0;
+  }
+  .div-3 {
+    border-radius: 21px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 10px 14px;
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      padding-right: 20px;
+    }
+  }
+  .img-2 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 22px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .div-4 {
+    color: #5c5c5c;
+    align-self: center;
+    flex-grow: 1;
+    white-space: nowrap;
+    margin: auto 0;
+    font: 500 14px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      white-space: initial;
+    }
+  }
+  .div-5 {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    margin: auto 0;
+  }
+  .div-6 {
+    color: #2f6ce5;
+    text-align: right;
+    flex-grow: 1;
+    white-space: nowrap;
+    margin: auto 0;
+    font: 500 16px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      white-space: initial;
+    }
+  }
+  .img-3 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 24px;
+    overflow: hidden;
+    align-self: stretch;
+    max-width: 100%;
+  }

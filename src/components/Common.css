@@ -1,0 +1,140 @@
+
+.c-img {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 28px;
+    overflow: hidden;
+    align-self: center;
+    max-width: 100%;
+  }
+  @media (max-width: 991px) {
+    .c-img {
+      width: 25px;
+      display: flex;
+      align-self: center;
+    }
+  }
+  @media (max-width: 561px) {
+    .c-img {
+      width: 55px;
+      display: flex;
+      align-self: center;
+    }
+  }
+
+
+
+
+  .div {
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-12 {
+    display: flex;
+    width: 100%;
+    max-width: 1041px;
+    flex-direction: column;
+    margin: 40px 0 47px;
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      max-width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+
+  .div-25 {
+    background-color: #e0e0e0;
+    margin-top: 11px;
+    width: 100%;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .div-25 {
+      max-width: 100%;
+    }
+  }
+  .div-26 {
+    background-color: #000;
+    z-index: 1;
+    height: 1px;
+  }
+  @media (max-width: 991px) {
+    .div-26 {
+      max-width: 100%;
+    }
+  }
+  .div-27 {
+    margin-top: 26px;
+  }
+  @media (max-width: 991px) {
+    .div-27 {
+      max-width: 100%;
+    }
+  }
+  .div-28 {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div-28 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 74%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+
+    }
+  }
+  .div-29 {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div-29 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+
+
+
+  .column-4 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 26%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-4 {
+      width: 100%;
+    }
+  }
+  .div-90 {
+    display: flex;
+    margin-top: 28px;
+    flex-direction: column;
+  }
+  @media (max-width: 991px) {
+    .div-90 {
+      margin-top: 40px;
+    }
+  }

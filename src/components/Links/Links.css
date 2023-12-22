@@ -1,0 +1,125 @@
+.div-13 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .div-13 {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+  .div-14 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    margin: auto 0;
+    padding: 0 20px;
+  }
+  .div-15 {
+    color: #000;
+    align-self: stretch;
+    flex-grow: 1;
+    white-space: nowrap;
+    font: 400 16px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      white-space: initial;
+    }
+  }
+  .div-16 {
+    color: #8a8a8a;
+    align-self: start;
+    font: 400 16px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-17 {
+    color: #8a8a8a;
+    align-self: start;
+    font: 400 16px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-18 {
+    color: #8a8a8a;
+    align-self: start;
+    font: 400 16px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .div-19 {
+    color: #8a8a8a;
+    align-self: start;
+    white-space: nowrap;
+    font: 400 16px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-19 {
+      white-space: initial;
+    }
+  }
+  .div-20 {
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .div-21 {
+    border-radius: 4px;
+    background-color: #edeef0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 11px;
+    padding: 7px 6px 7px 12px;
+  }
+  .div-22 {
+    color: #000;
+    margin: auto 0;
+    font: 500 15px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  .img-5 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 22px;
+    overflow: hidden;
+    align-self: stretch;
+    max-width: 100%;
+  }
+  .div-23 {
+    border-radius: 4px;
+    background-color: #2f6ce5;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    padding: 7px 12px;
+    cursor:pointer;
+  }
+  .img-6 {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 22px;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .div-24 {
+    color: #fff;
+    align-self: start;
+    margin-top: 6px;
+    flex-grow: 1;
+    white-space: nowrap;
+    font: 500 15px IBM Plex Sans, -apple-system, Roboto, Helvetica,
+      sans-serif;
+  }
+  @media (max-width: 991px) {
+    .div-24 {
+      white-space: initial;
+    }
+  }
